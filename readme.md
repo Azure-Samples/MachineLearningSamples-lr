@@ -1,6 +1,6 @@
 # Simple Linear Regression
 
-This sample shows how to use matploblit to save a plot file (png format), and view it in the Run History detail page.
+This sample shows how to use `matplotlib` to save a plot file (png format), and view it in the Run History detail page.
 
 Run linear_reg.py in local conda environment.
 ```
