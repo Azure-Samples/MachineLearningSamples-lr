@@ -49,4 +49,10 @@ If you have a compute target named _myvm_ for a remote VM, you can run the follo
 $ az ml experiment submit -c myvm linear_reg.py
 ```
 
+You can use this command to create a compute target.
+```
+$ az ml computetarget attach --name myvm --address <ip address or FQDN> --username <username> --password <pwd> --type remotedocker
+```
+
 >Note: Your first execution on docker-based compute target automatically downloads a base Docker image. For that reason, it takes a few minutes before your job starts to run. Your environment is then cached to make subsequent runs faster. 
+
