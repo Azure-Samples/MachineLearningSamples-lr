@@ -1,5 +1,7 @@
 # Simple Linear Regression
 
+> **NOTE** This content is no longer maintained. Visit the [Azure Machine Learning Notebook](https://github.com/Azure/MachineLearningNotebooks) project for sample Jupyter notebooks for ML and deep learning with Azure Machine Learning.
+
 This sample creates a simple linear regression on one-dimensional data using a closed-form solution. 
 It shows how to use `matplotlib` to plot the data and the fitted line, and save a plot file (png format) to view it in the **Runs** view  in Azure Machine Learning Workbench.
 
